@@ -1,0 +1,19 @@
+logger:
+  level: "info"
+
+session:
+  encryption_key: "lila_secret_key"
+
+socket:
+  port: 7350
+  address: "0.0.0.0"
+
+# EXPLICITLY ALLOW BROWSER ACCESS
+runtime:
+  js_entrypoint: "main.js"
+  http_key: "defaultkey"
+
+console:
+  port: 7351
+  username: "admin"
+  password: "password"
